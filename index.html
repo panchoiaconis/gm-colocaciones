@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GM Colocaciones – Pisos Vinílicos, Decks y Alfombras | Zona Norte AMBA</title>
+<meta name="description" content="Más de 40 años colocando pisos vinílicos, decks de PVC, alfombras y pisos encastrables en obras y locales comerciales. Zona Norte AMBA. Presupuesto sin cargo.">
+<meta name="keywords" content="colocador de pisos zona norte, pisos vinílicos instalación, colocación alfombras comerciales, deck PVC zona norte, pisos encastrables AMBA, piso vinílico colocación">
+<meta property="og:title" content="GM Colocaciones – 40 años de experiencia en pisos">
+<meta property="og:description" content="Colocación profesional de pisos vinílicos, decks de PVC y alfombras para obras y locales comerciales en Zona Norte AMBA.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --negro: #1A1A18;
+    --carbón: #2C2B27;
+    --grafito: #44433E;
+    --arena: #C9B99A;
+    --arena-claro: #E8DDD0;
+    --arena-muy-claro: #F5F0EA;
+    --dorado: #B8924A;
+    --dorado-claro: #D4AA6A;
+    --blanco: #FAFAF8;
+    --verde-wa: #25D366;
+    --rojo-acento: #C0392B;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--blanco);
+    color: var(--negro);
+    font-size: 16px;
+    line-height: 1.65;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.05;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(26, 26, 24, 0.96);
+    backdrop-filter: blur(8px);
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px;
+    border-bottom: 1px solid rgba(184, 146, 74, 0.25);
+  }
+
+  .nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    color: var(--blanco);
+    letter-spacing: 0.08em;
+    text-decoration: none;
+  }
+
+  .nav-logo span { color: var(--dorado); }
+
+  .nav-links {
+    display: flex; gap: 32px; list-style: none;
+  }
+
+  .nav-links a {
+    color: rgba(250,250,248,0.75);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--dorado); }
+
+  .nav-cta {
+    background: var(--verde-wa);
+    color: white !important;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: 600 !important;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: #1EBE5A !important; color: white !important; }
+
+  .nav-burger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+  .nav-burger span { width: 24px; height: 2px; background: var(--blanco); display: block; }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    background: var(--negro);
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 100px 5% 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(26,26,24,0.95) 55%, rgba(184,146,74,0.08) 100%);
+    z-index: 1;
+  }
+
+  .hero-bg-pattern {
+    position: absolute; inset: 0; z-index: 0; opacity: 0.035;
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 48px, rgba(184,146,74,1) 48px, rgba(184,146,74,1) 49px),
+      repeating-linear-gradient(90deg, transparent, transparent 48px, rgba(184,146,74,1) 48px, rgba(184,146,74,1) 49px);
+  }
+
+  .hero-content { position: relative; z-index: 2; max-width: 800px; }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(184,146,74,0.15);
+    border: 1px solid rgba(184,146,74,0.35);
+    color: var(--dorado-claro);
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-radius: 50px;
+    margin-bottom: 24px;
+  }
+
+  .hero-badge::before { content: '●'; font-size: 0.5rem; animation: pulse 2s infinite; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .hero h1 {
+    font-size: clamp(3.2rem, 8vw, 6.5rem);
+    color: var(--blanco);
+    margin-bottom: 8px;
+  }
+
+  .hero h1 em {
+    font-style: normal;
+    color: var(--dorado);
+    display: block;
+  }
+
+  .hero-sub {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: rgba(250,250,248,0.7);
+    max-width: 560px;
+    margin: 20px 0 40px;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  .hero-ctas {
+    display: flex; flex-wrap: wrap; gap: 14px; align-items: center;
+  }
+
+  .btn-wa {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--verde-wa);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 15px 28px;
+    border-radius: 8px;
+    transition: all 0.25s;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
+  }
+
+  .btn-wa:hover {
+    background: #1EBE5A;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(37, 211, 102, 0.4);
+  }
+
+  .btn-outline {
+    display: inline-flex; align-items: center; gap: 8px;
+    border: 1.5px solid rgba(250,250,248,0.3);
+    color: rgba(250,250,248,0.85);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 14px 24px;
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+
+  .btn-outline:hover {
+    border-color: var(--dorado);
+    color: var(--dorado);
+  }
+
+  .hero-stats {
+    position: relative; z-index: 2;
+    display: flex; gap: 0;
+    margin-top: 64px;
+    border-top: 1px solid rgba(250,250,248,0.08);
+    padding-top: 32px;
+  }
+
+  .hero-stat {
+    flex: 1;
+    padding-right: 32px;
+    border-right: 1px solid rgba(250,250,248,0.08);
+  }
+
+  .hero-stat:last-child { border-right: none; padding-right: 0; padding-left: 32px; }
+  .hero-stat:not(:first-child) { padding-left: 32px; }
+
+  .hero-stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: var(--dorado);
+    line-height: 1;
+    letter-spacing: 0.04em;
+  }
+
+  .hero-stat-label {
+    font-size: 0.8rem;
+    color: rgba(250,250,248,0.5);
+    font-weight: 400;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  /* SECTIONS */
+  section { padding: 80px 5%; }
+
+  .section-eyebrow {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--dorado);
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    color: var(--negro);
+    margin-bottom: 16px;
+  }
+
+  .section-title span { color: var(--dorado); }
+
+  .section-subtitle {
+    font-size: 1.05rem;
+    color: var(--grafito);
+    max-width: 560px;
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  /* SERVICIOS */
+  #servicios { background: var(--arena-muy-claro); }
+
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2px;
+    margin-top: 56px;
+    background: rgba(201,185,154,0.3);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .servicio-card {
+    background: var(--blanco);
+    padding: 40px 32px;
+    transition: background 0.2s;
+    cursor: default;
+  }
+
+  .servicio-card:hover { background: var(--negro); }
+  .servicio-card:hover .servicio-icon { background: rgba(184,146,74,0.15); color: var(--dorado); }
+  .servicio-card:hover h3 { color: var(--blanco); }
+  .servicio-card:hover p { color: rgba(250,250,248,0.6); }
+
+  .servicio-icon {
+    width: 52px; height: 52px;
+    background: var(--arena-muy-claro);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    transition: all 0.2s;
+  }
+
+  .servicio-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    color: var(--negro);
+    margin-bottom: 10px;
+    transition: color 0.2s;
+  }
+
+  .servicio-card p {
+    font-size: 0.9rem;
+    color: var(--grafito);
+    line-height: 1.65;
+    font-weight: 300;
+    transition: color 0.2s;
+  }
+
+  .servicio-tag {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--dorado);
+    border-top: 1px solid rgba(184,146,74,0.3);
+    padding-top: 12px;
+  }
+
+  /* NOSOTROS */
+  #nosotros {
+    background: var(--negro);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  #nosotros .section-title { color: var(--blanco); }
+  #nosotros .section-subtitle { color: rgba(250,250,248,0.6); }
+
+  .nosotros-puntos {
+    list-style: none;
+    margin-top: 32px;
+    display: flex; flex-direction: column; gap: 16px;
+  }
+
+  .nosotros-punto {
+    display: flex; align-items: flex-start; gap: 14px;
+    padding: 20px;
+    background: rgba(250,250,248,0.04);
+    border: 1px solid rgba(250,250,248,0.06);
+    border-radius: 10px;
+    transition: border-color 0.2s;
+  }
+
+  .nosotros-punto:hover { border-color: rgba(184,146,74,0.3); }
+
+  .punto-icon {
+    width: 36px; height: 36px; min-width: 36px;
+    background: rgba(184,146,74,0.12);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem;
+  }
+
+  .nosotros-punto strong {
+    color: var(--blanco);
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+
+  .nosotros-punto span {
+    font-size: 0.84rem;
+    color: rgba(250,250,248,0.5);
+    font-weight: 300;
+  }
+
+  .nosotros-visual {
+    position: relative;
+  }
+
+  .anio-badge {
+    position: absolute;
+    top: -20px; right: -20px;
+    width: 140px; height: 140px;
+    background: var(--dorado);
+    border-radius: 50%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    z-index: 2;
+    box-shadow: 0 8px 40px rgba(184,146,74,0.4);
+  }
+
+  .anio-badge .num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: var(--negro);
+    line-height: 1;
+    letter-spacing: 0.04em;
+  }
+
+  .anio-badge .txt {
+    font-size: 0.7rem;
+    color: var(--negro);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3;
+    margin-top: 2px;
+  }
+
+  .nosotros-img-placeholder {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: var(--carbón);
+    border-radius: 16px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 12px;
+    border: 1px solid rgba(250,250,248,0.06);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .nosotros-img-placeholder::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, transparent 60%, rgba(184,146,74,0.06));
+  }
+
+  .img-hint {
+    font-size: 0.8rem;
+    color: rgba(250,250,248,0.3);
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
+    font-weight: 300;
+  }
+
+  .img-hint strong {
+    display: block;
+    color: rgba(250,250,248,0.5);
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  /* GALERIA */
+  #galeria { background: var(--blanco); }
+
+  .galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 12px;
+    margin-top: 48px;
+  }
+
+  .galeria-item {
+    background: var(--arena-claro);
+    border-radius: 12px;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    position: relative;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform 0.25s;
+    cursor: pointer;
+  }
+
+  .galeria-item:hover { transform: scale(1.02); }
+
+  .galeria-item:nth-child(1) { grid-column: 1 / 3; aspect-ratio: 16/9; }
+
+  .galeria-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(26,26,24,0.8) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity 0.25s;
+    display: flex; align-items: flex-end; padding: 20px;
+  }
+
+  .galeria-item:hover .galeria-overlay { opacity: 1; }
+
+  .galeria-overlay span {
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .galeria-placeholder {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 8px; padding: 20px; text-align: center;
+  }
+
+  .galeria-placeholder .gi-icon { font-size: 2rem; opacity: 0.4; }
+  .galeria-placeholder .gi-label { font-size: 0.78rem; color: var(--grafito); font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; opacity: 0.7; }
+  .galeria-placeholder .gi-sub { font-size: 0.72rem; color: var(--grafito); opacity: 0.5; }
+
+  /* TESTIMONIOS */
+  #testimonios { background: var(--arena-muy-claro); }
+
+  .testimonios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 48px;
+  }
+
+  .testimonio-card {
+    background: var(--blanco);
+    padding: 32px;
+    border-radius: 14px;
+    border: 1px solid rgba(201,185,154,0.4);
+    position: relative;
+  }
+
+  .testimonio-card::before {
+    content: '"';
+    position: absolute;
+    top: 20px; right: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: var(--arena-claro);
+    line-height: 1;
+  }
+
+  .estrellas {
+    color: var(--dorado);
+    font-size: 0.9rem;
+    margin-bottom: 14px;
+    letter-spacing: 2px;
+  }
+
+  .testimonio-texto {
+    font-size: 0.92rem;
+    color: var(--grafito);
+    line-height: 1.7;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  .testimonio-autor {
+    display: flex; align-items: center; gap: 12px;
+  }
+
+  .autor-avatar {
+    width: 42px; height: 42px;
+    background: var(--negro);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    color: var(--dorado);
+  }
+
+  .autor-nombre { font-weight: 600; font-size: 0.88rem; }
+  .autor-cargo { font-size: 0.78rem; color: var(--grafito); font-weight: 300; }
+
+  /* FAQ */
+  #faq { background: var(--blanco); }
+
+  .faq-container { max-width: 760px; margin: 48px auto 0; }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(201,185,154,0.4);
+    overflow: hidden;
+  }
+
+  .faq-question {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 22px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.97rem;
+    color: var(--negro);
+    gap: 16px;
+    user-select: none;
+  }
+
+  .faq-question:hover { color: var(--dorado); }
+
+  .faq-icon {
+    width: 28px; height: 28px; min-width: 28px;
+    background: var(--arena-muy-claro);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+    color: var(--dorado);
+    transition: transform 0.25s, background 0.2s;
+    font-weight: 300;
+  }
+
+  .faq-item.open .faq-icon { transform: rotate(45deg); background: var(--negro); color: var(--blanco); }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.25s;
+    font-size: 0.9rem;
+    color: var(--grafito);
+    line-height: 1.75;
+    font-weight: 300;
+  }
+
+  .faq-item.open .faq-answer {
+    max-height: 300px;
+    padding-bottom: 20px;
+  }
+
+  /* CONTACTO */
+  #contacto {
+    background: var(--negro);
+  }
+
+  .contacto-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+
+  .contacto-info .section-title { color: var(--blanco); }
+  .contacto-info .section-subtitle { color: rgba(250,250,248,0.6); }
+
+  .contacto-items {
+    display: flex; flex-direction: column; gap: 16px;
+    margin-top: 36px;
+  }
+
+  .contacto-item {
+    display: flex; align-items: flex-start; gap: 14px;
+    padding: 18px;
+    background: rgba(250,250,248,0.04);
+    border-radius: 10px;
+    border: 1px solid rgba(250,250,248,0.06);
+  }
+
+  .contacto-item-icon {
+    font-size: 1.1rem;
+    width: 36px; height: 36px; min-width: 36px;
+    background: rgba(184,146,74,0.12);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .contacto-item strong { display: block; color: var(--blanco); font-size: 0.85rem; margin-bottom: 3px; }
+  .contacto-item span { font-size: 0.82rem; color: rgba(250,250,248,0.5); font-weight: 300; }
+
+  .btn-wa-grande {
+    display: flex; align-items: center; justify-content: center; gap: 12px;
+    background: var(--verde-wa);
+    color: white;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    padding: 18px 24px;
+    border-radius: 10px;
+    margin-top: 28px;
+    transition: all 0.25s;
+    box-shadow: 0 4px 24px rgba(37, 211, 102, 0.3);
+  }
+
+  .btn-wa-grande:hover {
+    background: #1EBE5A;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 36px rgba(37, 211, 102, 0.45);
+  }
+
+  .wa-icon { font-size: 1.3rem; }
+
+  /* FORMULARIO */
+  .form-card {
+    background: rgba(250,250,248,0.04);
+    border: 1px solid rgba(250,250,248,0.08);
+    border-radius: 16px;
+    padding: 40px 36px;
+  }
+
+  .form-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: var(--blanco);
+    letter-spacing: 0.04em;
+    margin-bottom: 24px;
+  }
+
+  .form-group { margin-bottom: 18px; }
+
+  .form-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(250,250,248,0.5);
+    margin-bottom: 8px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    background: rgba(250,250,248,0.06);
+    border: 1px solid rgba(250,250,248,0.1);
+    color: var(--blanco);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.92rem;
+    padding: 13px 16px;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .form-group input::placeholder,
+  .form-group textarea::placeholder { color: rgba(250,250,248,0.2); }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: rgba(184,146,74,0.5);
+    background: rgba(250,250,248,0.08);
+  }
+
+  .form-group select { color: rgba(250,250,248,0.7); cursor: pointer; }
+  .form-group select option { background: var(--carbón); }
+
+  .form-group textarea { resize: vertical; min-height: 100px; }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  .btn-submit {
+    width: 100%;
+    background: var(--dorado);
+    color: var(--negro);
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: all 0.2s;
+  }
+
+  .btn-submit:hover {
+    background: var(--dorado-claro);
+    transform: translateY(-1px);
+  }
+
+  .form-nota {
+    font-size: 0.75rem;
+    color: rgba(250,250,248,0.3);
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 300;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #111110;
+    padding: 40px 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 16px;
+    border-top: 1px solid rgba(250,250,248,0.06);
+  }
+
+  .footer-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    color: var(--blanco);
+    letter-spacing: 0.08em;
+  }
+
+  .footer-logo span { color: var(--dorado); }
+
+  .footer-links {
+    display: flex; gap: 28px; list-style: none;
+  }
+
+  .footer-links a {
+    color: rgba(250,250,248,0.35);
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: var(--dorado); }
+
+  .footer-copy {
+    font-size: 0.75rem;
+    color: rgba(250,250,248,0.25);
+    font-weight: 300;
+  }
+
+  /* WA FLOTANTE */
+  .wa-float {
+    position: fixed;
+    bottom: 28px; right: 28px;
+    z-index: 200;
+    background: var(--verde-wa);
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 6px 24px rgba(37, 211, 102, 0.45);
+    transition: all 0.25s;
+    animation: float-in 0.5s ease 1s backwards;
+  }
+
+  @keyframes float-in {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  .wa-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 36px rgba(37, 211, 102, 0.6);
+  }
+
+  .wa-float svg { width: 30px; height: 30px; fill: white; }
+
+  .wa-tooltip {
+    position: absolute;
+    right: 70px;
+    background: var(--negro);
+    color: white;
+    font-size: 0.78rem;
+    white-space: nowrap;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 500;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+
+  .wa-float:hover .wa-tooltip { opacity: 1; }
+
+  /* DIVIDER DECORATIVO */
+  .divider-dorado {
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--dorado), transparent);
+    margin: 0;
+  }
+
+  /* TRUST BAR */
+  .trust-bar {
+    background: var(--carbón);
+    padding: 20px 5%;
+    display: flex; align-items: center; justify-content: center; gap: 48px;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex; align-items: center; gap: 10px;
+    color: rgba(250,250,248,0.55);
+    font-size: 0.82rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+  }
+
+  .trust-item span { font-size: 1rem; }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .nav-burger { display: flex; }
+    .nav-links.open {
+      display: flex; flex-direction: column;
+      position: absolute; top: 64px; left: 0; right: 0;
+      background: var(--negro);
+      padding: 20px 5%;
+      gap: 16px;
+      border-bottom: 1px solid rgba(250,250,248,0.08);
+    }
+
+    .hero-stats { flex-direction: column; gap: 24px; }
+    .hero-stat { border-right: none; border-bottom: 1px solid rgba(250,250,248,0.08); padding: 0 0 24px !important; }
+    .hero-stat:last-child { border-bottom: none; padding-bottom: 0 !important; }
+
+    #nosotros { grid-template-columns: 1fr; gap: 40px; }
+    .nosotros-visual { display: none; }
+
+    .galeria-grid { grid-template-columns: 1fr 1fr; }
+    .galeria-item:nth-child(1) { grid-column: 1 / -1; }
+
+    .contacto-inner { grid-template-columns: 1fr; gap: 40px; }
+    .form-row { grid-template-columns: 1fr; }
+
+    footer { flex-direction: column; align-items: flex-start; }
+    .footer-links { flex-wrap: wrap; gap: 16px; }
+
+    .trust-bar { gap: 20px; padding: 16px 5%; }
+
+    section { padding: 60px 5%; }
+  }
+
+  @media (max-width: 480px) {
+    .galeria-grid { grid-template-columns: 1fr; }
+    .galeria-item:nth-child(1) { aspect-ratio: 16/9; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">GM <span>Colocaciones</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#galeria">Trabajos</a></li>
+    <li><a href="#faq">Preguntas</a></li>
+    <li><a href="#contacto" class="nav-cta">Pedir presupuesto</a></li>
+  </ul>
+  <div class="nav-burger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Zona Norte AMBA · Obras y comercios</div>
+    <h1>
+      Pisos que duran.<br>
+      <em>Trabajo que se nota.</em>
+    </h1>
+    <p class="hero-sub">
+      Colocación profesional de pisos vinílicos, decks de PVC, alfombras y pisos encastrables. Más de 40 años de experiencia en obras y locales comerciales.
+    </p>
+    <div class="hero-ctas">
+      <a href="https://wa.me/5491100000000?text=Hola,%20me%20gustar%C3%ADa%20pedir%20un%20presupuesto%20para%20colocaci%C3%B3n%20de%20pisos." target="_blank" class="btn-wa">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Pedir presupuesto
+      </a>
+      <a href="#servicios" class="btn-outline">Ver servicios ↓</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="hero-stat-num">40+</div>
+      <div class="hero-stat-label">Años en el rubro</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">2</div>
+      <div class="hero-stat-label">Profesionales dedicados</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">100%</div>
+      <div class="hero-stat-label">Obras y comercios</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">ZN</div>
+      <div class="hero-stat-label">Zona Norte AMBA</div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item"><span>✓</span> Presupuesto sin cargo</div>
+  <div class="trust-item"><span>✓</span> Asesoramiento personalizado</div>
+  <div class="trust-item"><span>✓</span> Trabajos con garantía</div>
+  <div class="trust-item"><span>✓</span> Cumplimiento de plazos</div>
+  <div class="trust-item"><span>✓</span> Materiales de primera calidad</div>
+</div>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="section-eyebrow">Lo que hacemos</div>
+  <h2 class="section-title">Nuestros <span>servicios</span></h2>
+  <p class="section-subtitle">Trabajamos con las mejores marcas del mercado y garantizamos instalaciones prolijas, duraderas y a medida de cada proyecto.</p>
+
+  <div class="servicios-grid">
+    <div class="servicio-card">
+      <div class="servicio-icon">🏢</div>
+      <h3>Pisos Vinílicos</h3>
+      <p>Colocación de pisos vinílicos en plancha y tablón. Ideales para locales comerciales, oficinas y áreas de alto tránsito. Resistentes, fáciles de limpiar y con excelente terminación.</p>
+      <div class="servicio-tag">Alta durabilidad · Fácil mantenimiento</div>
+    </div>
+    <div class="servicio-card">
+      <div class="servicio-icon">🌿</div>
+      <h3>Decks de PVC</h3>
+      <p>Instalación de decks de PVC para exteriores: terrazas, balcones, patios y áreas comunes. No requieren mantenimiento especial y resisten la intemperie perfectamente.</p>
+      <div class="servicio-tag">Exterior · Sin mantenimiento</div>
+    </div>
+    <div class="servicio-card">
+      <div class="servicio-icon">🏨</div>
+      <h3>Alfombras</h3>
+      <p>Colocación de alfombras comerciales para hoteles, oficinas, salas de espera y locales. Desde rollos hasta losetas, con instalación prolija y ajuste exacto.</p>
+      <div class="servicio-tag">Comercial · Acústico</div>
+    </div>
+    <div class="servicio-card">
+      <div class="servicio-icon">🔧</div>
+      <h3>Pisos Encastrables</h3>
+      <p>Pisos encastrables de PVC y madera para instalaciones rápidas y versátiles. Sin pegamento, con sistema click que garantiza un resultado limpio y resistente.</p>
+      <div class="servicio-tag">PVC y madera · Sistema click</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-dorado"></div>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div>
+    <div class="section-eyebrow" style="color: var(--dorado);">Por qué elegirnos</div>
+    <h2 class="section-title">40 años <span>no se improvisan</span></h2>
+    <p class="section-subtitle" style="color: rgba(250,250,248,0.6);">Somos un equipo de dos profesionales que se especializaron en lo que hacen. Sin intermediarios, sin subcontratados. El trabajo lo hacemos nosotros.</p>
+
+    <ul class="nosotros-puntos">
+      <li class="nosotros-punto">
+        <div class="punto-icon">🎯</div>
+        <div>
+          <strong>Experiencia real, no marketinera</strong>
+          <span>Más de 40 años colocando pisos en obras y comercios de la zona norte. Vimos de todo y sabemos cómo resolver cualquier situación.</span>
+        </div>
+      </li>
+      <li class="nosotros-punto">
+        <div class="punto-icon">📋</div>
+        <div>
+          <strong>Cumplimos los plazos acordados</strong>
+          <span>En obras cada día importa. Llegamos cuando dijimos y terminamos cuando prometemos. Sin excusas, sin demoras injustificadas.</span>
+        </div>
+      </li>
+      <li class="nosotros-punto">
+        <div class="punto-icon">💬</div>
+        <div>
+          <strong>Asesoramiento honesto</strong>
+          <span>Te recomendamos el piso que mejor le conviene a tu proyecto, no el más caro. Con 40 años de experiencia, podemos orientarte bien.</span>
+        </div>
+      </li>
+      <li class="nosotros-punto">
+        <div class="punto-icon">🛡️</div>
+        <div>
+          <strong>Trabajos que duran</strong>
+          <span>Usamos materiales de calidad y técnicas probadas. Nuestros trabajos se sostienen en el tiempo porque así nos enseñaron a hacerlos.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="nosotros-visual">
+    <div class="anio-badge">
+      <div class="num">40+</div>
+      <div class="txt">años de<br>experiencia</div>
+    </div>
+    <div class="nosotros-img-placeholder">
+      <div class="img-hint">
+        <strong>📸 Foto recomendada</strong>
+        Los dos profesionales trabajando en obra o posando con herramientas. Foto real, informal pero prolija. Fondo neutro o en una instalación terminada.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria">
+  <div class="section-eyebrow">Trabajos realizados</div>
+  <h2 class="section-title">Lo que hacemos <span>habla por sí solo</span></h2>
+  <p class="section-subtitle">Cada obra es un testimonio de nuestro trabajo. Locales, oficinas, galerias y más en toda la zona norte.</p>
+
+  <div class="galeria-grid">
+    <div class="galeria-item">
+      <div class="galeria-placeholder">
+        <div class="gi-icon">🏢</div>
+        <div class="gi-label">Foto destacada</div>
+        <div class="gi-sub">Local comercial · Piso vinílico plancha</div>
+      </div>
+      <div class="galeria-overlay"><span>Local comercial — piso vinílico</span></div>
+    </div>
+    <div class="galeria-item">
+      <div class="galeria-placeholder">
+        <div class="gi-icon">🌿</div>
+        <div class="gi-label">Deck exterior</div>
+        <div class="gi-sub">Terraza · PVC gris madera</div>
+      </div>
+      <div class="galeria-overlay"><span>Terraza — deck de PVC</span></div>
+    </div>
+    <div class="galeria-item">
+      <div class="galeria-placeholder">
+        <div class="gi-icon">🏨</div>
+        <div class="gi-label">Alfombra comercial</div>
+        <div class="gi-sub">Oficinas · Loseta gris</div>
+      </div>
+      <div class="galeria-overlay"><span>Oficina — alfombra loseta</span></div>
+    </div>
+    <div class="galeria-item">
+      <div class="galeria-placeholder">
+        <div class="gi-icon">🔧</div>
+        <div class="gi-label">Piso encastrable</div>
+        <div class="gi-sub">Local gastronómico · Sistema click</div>
+      </div>
+      <div class="galeria-overlay"><span>Gastronómico — piso encastrable</span></div>
+    </div>
+    <div class="galeria-item">
+      <div class="galeria-placeholder">
+        <div class="gi-icon">📐</div>
+        <div class="gi-label">Detalle terminación</div>
+        <div class="gi-sub">Zócalos y esquinas</div>
+      </div>
+      <div class="galeria-overlay"><span>Detalle — terminación zócalo</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios">
+  <div class="section-eyebrow">Lo que dicen los clientes</div>
+  <h2 class="section-title">Resultados que <span>generan confianza</span></h2>
+
+  <div class="testimonios-grid">
+    <div class="testimonio-card">
+      <div class="estrellas">★★★★★</div>
+      <p class="testimonio-texto">Contratamos a GM Colocaciones para un local de 300m² en Tigre. Terminaron en tiempo y forma, la terminación fue excelente y el trato muy profesional. Los volvemos a llamar sin dudarlo.</p>
+      <div class="testimonio-autor">
+        <div class="autor-avatar">MR</div>
+        <div>
+          <div class="autor-nombre">Marcelo R.</div>
+          <div class="autor-cargo">Dueño de local comercial, Tigre</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonio-card">
+      <div class="estrellas">★★★★★</div>
+      <p class="testimonio-texto">Trabajamos con ellos en varios proyectos de oficinas. La experiencia se nota en cada detalle: desde cómo preparan la superficie hasta el acabado final. Muy recomendables para obras grandes.</p>
+      <div class="testimonio-autor">
+        <div class="autor-avatar">CP</div>
+        <div>
+          <div class="autor-nombre">Carolina P.</div>
+          <div class="autor-cargo">Arquitecta, San Isidro</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonio-card">
+      <div class="estrellas">★★★★★</div>
+      <p class="testimonio-texto">Les pedí presupuesto para una galería comercial y me asesoraron muy bien sobre qué tipo de piso convenía. El precio fue justo y el trabajo quedó de primera. Cumplieron todo lo acordado.</p>
+      <div class="testimonio-autor">
+        <div class="autor-avatar">JL</div>
+        <div>
+          <div class="autor-nombre">Jorge L.</div>
+          <div class="autor-cargo">Administrador de consorcio, Pilar</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+    <div class="section-eyebrow">Preguntas frecuentes</div>
+    <h2 class="section-title">Lo que suelen <span>consultar</span></h2>
+  </div>
+
+  <div class="faq-container">
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        ¿Qué zonas cubren?
+        <div class="faq-icon">+</div>
+      </div>
+      <div class="faq-answer">
+        Trabajamos en toda la Zona Norte del AMBA: Tigre, San Isidro, Vicente López, San Martín, Pilar, Escobar, Malvinas Argentinas, José C. Paz y alrededores. Si tu obra está en esa franja, coordinamos una visita sin compromiso.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        ¿Hacen trabajos en locales con horario restringido?
+        <div class="faq-icon">+</div>
+      </div>
+      <div class="faq-answer">
+        Sí. Tenemos experiencia trabajando en horarios reducidos o fuera del horario comercial para no interrumpir la operación de locales y oficinas. Lo coordinamos en el presupuesto.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        ¿Venden los materiales o solo ponen la mano de obra?
+        <div class="faq-icon">+</div>
+      </div>
+      <div class="faq-answer">
+        Podemos trabajar de las dos formas. Si ya tenés los materiales, colocamos. Si necesitás los materiales, podemos conseguirlos y te ofrecemos el servicio llave en mano. En el presupuesto se detalla todo.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        ¿Cuánto tarda en estar listo el presupuesto?
+        <div class="faq-icon">+</div>
+      </div>
+      <div class="faq-answer">
+        Si nos mandás fotos y medidas por WhatsApp, generalmente respondemos en el día. Para obras más grandes o cuando hay dudas sobre la superficie, coordinamos una visita técnica sin cargo.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        ¿Tienen garantía los trabajos?
+        <div class="faq-icon">+</div>
+      </div>
+      <div class="faq-answer">
+        Sí. Garantizamos la instalación. Si dentro de los primeros 6 meses aparece algún problema por defecto de colocación, lo resolvemos sin costo adicional. Los 40 años de trayectoria respaldan esa promesa.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        ¿Trabajan con arquitectos o empresas constructoras?
+        <div class="faq-icon">+</div>
+      </div>
+      <div class="faq-answer">
+        Sí, es parte importante de nuestra cartera de clientes. Trabajamos con arquitectos, estudios y constructoras de forma frecuente. Tenemos la agilidad para adaptarnos a los tiempos de obra y los requerimientos técnicos del proyecto.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="contacto-inner">
+    <div class="contacto-info">
+      <div class="section-eyebrow">Contacto</div>
+      <h2 class="section-title" style="color: var(--blanco);">Pedí tu <span>presupuesto</span></h2>
+      <p class="section-subtitle">Contanos tu proyecto y te respondemos a la brevedad. Sin vueltas, sin intermediarios.</p>
+
+      <div class="contacto-items">
+        <div class="contacto-item">
+          <div class="contacto-item-icon">📍</div>
+          <div>
+            <strong>Zona de trabajo</strong>
+            <span>Zona Norte del AMBA — Tigre, San Isidro, Pilar y alrededores</span>
+          </div>
+        </div>
+        <div class="contacto-item">
+          <div class="contacto-item-icon">🕐</div>
+          <div>
+            <strong>Horario de atención</strong>
+            <span>Lunes a viernes de 8 a 18 hs · Sábados de 8 a 13 hs</span>
+          </div>
+        </div>
+        <div class="contacto-item">
+          <div class="contacto-item-icon">⚡</div>
+          <div>
+            <strong>Respuesta rápida</strong>
+            <span>Respondemos consultas el mismo día, generalmente en pocas horas</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://wa.me/5491100000000?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20un%20presupuesto%20para%20colocaci%C3%B3n%20de%20pisos." target="_blank" class="btn-wa-grande">
+        <span class="wa-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </span>
+        Escribinos por WhatsApp
+      </a>
+    </div>
+
+    <div class="form-card">
+      <div class="form-title">Formulario de Consulta</div>
+      <form onsubmit="enviarForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nombre *</label>
+            <input type="text" placeholder="Tu nombre" required>
+          </div>
+          <div class="form-group">
+            <label>Teléfono *</label>
+            <input type="tel" placeholder="11 0000-0000" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="gabriel.iaconis@gmail.com.com">
+        </div>
+        <div class="form-group">
+          <label>Tipo de proyecto *</label>
+          <select required>
+            <option value="" disabled selected>Seleccioná una opción</option>
+            <option>Local comercial</option>
+            <option>Oficina o espacio de trabajo</option>
+            <option>Obra en construcción</option>
+            <option>Galería o shopping</option>
+            <option>Hotel u hostelería</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>¿Qué servicio necesitás?</label>
+          <select>
+            <option value="" disabled selected>Seleccioná el servicio</option>
+            <option>Piso vinílico</option>
+            <option>Deck de PVC</option>
+            <option>Alfombra comercial</option>
+            <option>Piso encastrable</option>
+            <option>Varios / No sé todavía</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Contanos tu proyecto</label>
+          <textarea placeholder="Superficie aproximada, zona, tiempos, etc."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Enviar consulta</button>
+        <p class="form-nota">Te respondemos en el día en horario laboral. Presupuesto sin cargo.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">GM <span>Colocaciones</span></div>
+  <ul class="footer-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#galeria">Trabajos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <p class="footer-copy">© 2025 GM Colocaciones · Zona Norte AMBA</p>
+</footer>
+
+<!-- WA FLOTANTE -->
+<a href="https://wa.me/5491162728958?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20sobre%20colocaci%C3%B3n%20de%20pisos." target="_blank" class="wa-float" title="Escribinos por WhatsApp">
+  <span class="wa-tooltip">Consultar por WhatsApp</span>
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+function toggleNav() {
+  document.getElementById('nav-links').classList.toggle('open');
+}
+
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!wasOpen) item.classList.add('open');
+}
+
+function enviarForm(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('.btn-submit');
+  btn.textContent = '✓ Consulta enviada';
+  btn.style.background = '#25D366';
+  setTimeout(() => {
+    btn.textContent = 'Enviar consulta';
+    btn.style.background = '';
+    e.target.reset();
+  }, 3000);
+}
+
+// Scroll spy
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    if (window.scrollY >= s.offsetTop - 100) current = s.id;
+  });
+  navLinks.forEach(a => {
+    a.style.color = a.getAttribute('href') === '#' + current ? 'var(--dorado)' : '';
+  });
+});
+
+// Smooth appear on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.servicio-card, .nosotros-punto, .testimonio-card, .galeria-item').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(20px)';
+  el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
